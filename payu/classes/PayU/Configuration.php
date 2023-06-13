@@ -18,7 +18,7 @@
             /** @var array $country */
             $country = [
                 'https://secure.payu.ua/order/lu.php' => 'Украина',
-                'https://secure.payu.ru/order/lu.php' => 'Россия'
+                'https://secure.ypmn.ru/order/lu.php' => 'Россия'
             ];
 
             /** @var array $languages */
@@ -46,7 +46,7 @@
                     'title' => __( 'Описание', 'woocommerce' ),
                     'type' => 'textarea',
                     'description' => __( 'Такое описание будет под названием способа оплаты.', 'woocommerce' ),
-                    'default' => __( 'Оплата через платежный шлюз PayU<a target="_blank" href="payu.ru">payu.ru</a>', 'woocommerce' )
+                    'default' => __( 'Оплата через платежный шлюз Your Payments<a target="_blank" href="ypmn.ru">ypmn.ru</a>', 'woocommerce' )
                 ],
 
                 'payment_payu_Merchant_ops' => [
@@ -73,7 +73,7 @@
                     'title' => __( 'Страна мерчанта', 'woocommerce' ),
                     'type' => 'select',
                     'description' => __( 'Выберите страну, в которой зарегистрирован мерчант PayU.', 'woocommerce' ),
-                    'default' => 'https://secure.payu.ru/order/lu.php',
+                    'default' => 'https://secure.ypmn.ru/order/lu.php',
                     'options' => $country,
                 ],
 
