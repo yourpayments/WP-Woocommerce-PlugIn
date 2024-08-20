@@ -11,6 +11,8 @@
             $idnUrl = "https://secure.ypmn.ru/order/idn.php",
             $irnUrl = "https://secure.ypmn.ru/order/irn.php" ;
 
+        var $cells = array();
+
         private static $Inst = false, $merchant, $key;
 
         private $data = array(), $dataArr = array(), $answer = "";
