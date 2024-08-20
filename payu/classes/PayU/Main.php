@@ -50,7 +50,7 @@
         /**
          * Добавление платежной системы
          */
-        public function initPayment()
+        public static function initPayment()
         {
 
             if (!defined('ABSPATH'))    exit;

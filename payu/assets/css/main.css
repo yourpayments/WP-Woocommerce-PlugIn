@@ -37,3 +37,44 @@
 {
 	line-height: 1;font-weight: normal;font-style: italic;font-size: 12px;
 }
+.payment_btn__wrapper {
+	text-align: center;
+	display: inline-block;
+}
+
+.payment_btn__link {
+	display: inline-block;
+	min-width: 300px;
+	max-height: 150px;
+	line-height: 20px;
+	justify-content: center;
+	background: #ffffff;
+	color: #000000;
+	border: 2px solid #4fc694;
+	border-radius: 5px;
+	padding: 8px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.payment_btn__link:hover,
+.payment_btn__link:focus,
+.payment_btn__link:active
+{
+	border-color: orange;
+}
+
+.payment_btn__logo {
+	display: inline-block;
+	min-height: 40px;
+	float: left;
+}
+
+.payment_btn__sign {
+	text-align: center;
+	display: block;
+	padding-top: 12px;
+	font-size: 18px;
+	font-weight: bolder;
+}

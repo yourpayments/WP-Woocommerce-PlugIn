@@ -1,5 +1,15 @@
 <?php
 
+wp_enqueue_style(
+    'payu_payment_admin_style_menu',
+    plugin_dir_url(__DIR__) . '/../assets/css/menu.css'
+);
+
+wp_enqueue_style(
+    'payu_payment_admin_style_main',
+    plugin_dir_url(__DIR__) . '/../assets/css/main.css'
+);
+
 /**
  * @var array $params
  */

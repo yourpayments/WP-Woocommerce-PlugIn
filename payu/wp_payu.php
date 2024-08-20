@@ -10,16 +10,6 @@
     */
 
 
-    wp_enqueue_style(
-        'payu_payment_admin_style_menu',
-        plugin_dir_url(__FILE__) . 'assets/css/menu.css'
-    );
-
-    wp_enqueue_style(
-        'payu_payment_admin_style_main',
-        plugin_dir_url(__FILE__) . 'assets/css/main.css'
-    );
-
     try
     {
         spl_autoload_register(
