@@ -19,8 +19,8 @@
             $items = [
                 [
                     'slug' => 'woocommerce',
-                    'page_title' => 'Настройки PayU',
-                    'menu_title' => 'Настройки PayU',
+                    'page_title' => 'Настройки «Твои платежи»',
+                    'menu_title' => 'Настройки «Твои платежи»',
                     'capability' => 8,
                     'menu_slug' => 'payu_payment_main_settings',
                     'function' => [\PayU\Configuration::class, 'main'],

@@ -39,7 +39,7 @@
                     'title' => __( 'Название', 'woocommerce' ),
                     'type' => 'text',
                     'description' => __( 'Такоей название будет отображаться в корзине.', 'woocommerce' ),
-                    'default' => __( 'PayU', 'woocommerce' ),
+                    'default' => __( '«Твои платежи»', 'woocommerce' ),
                 ],
 
                 'payment_payu_description' => [
@@ -58,21 +58,21 @@
                 'payment_payu_merchant' => [
                     'title' => __( 'Идентификатор мерчанта', 'woocommerce' ),
                     'type' 			=> 'text',
-                    'description' => __( 'Идентификатор мерчанта в системе PayU.', 'woocommerce' ),
+                    'description' => __( 'Идентификатор мерчанта в системе «Твои платежи».', 'woocommerce' ),
                     'default' => '',
                 ],
 
                 'payment_payu_secret_key' => [
                     'title' => __( 'Секретный ключ', 'woocommerce' ),
                     'type' 			=> 'text',
-                    'description' => __( 'Секретный ключ системы PayU.', 'woocommerce' ),
+                    'description' => __( 'Секретный ключ системы «Твои платежи».', 'woocommerce' ),
                     'default' => '',
                 ],
 
                 'payment_payu_country' => [
                     'title' => __( 'Страна мерчанта', 'woocommerce' ),
                     'type' => 'select',
-                    'description' => __( 'Выберите страну, в которой зарегистрирован мерчант PayU.', 'woocommerce' ),
+                    'description' => __( 'Выберите страну, в которой зарегистрирован мерчант «Твои платежи».', 'woocommerce' ),
                     'default' => 'https://secure.ypmn.ru/order/lu.php',
                     'options' => $country,
                 ],

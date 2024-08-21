@@ -334,7 +334,7 @@
             }
             else
             {
-                \wp_die( "PayU IPN Request Failure" );
+                \wp_die( "YPMN IPN Request Failure" );
             }
         }
 
@@ -373,7 +373,7 @@
                 $order->update_status(
                     'on-hold',
                     sprintf(
-                        __('Ошибка валидации: сумма оплаты не совпадает (сумма PayU : %s).', 'woocommerce'),
+                        __('Ошибка валидации: сумма оплаты не совпадает (сумма YPMN : %s).', 'woocommerce'),
                         $posted['IPN_TOTALGENERAL']
                     )
                 );

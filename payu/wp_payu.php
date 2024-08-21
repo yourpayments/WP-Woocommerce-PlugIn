@@ -1,9 +1,9 @@
 <?php
 
     /*
-      Plugin Name: Payu WooCommerce
+      Plugin Name: «Твои платежи» WooCommerce
 
-      Description: Данный плагин добавляет на Ваш сайт метод оплаты PayU для WooCommerce
+      Description: Данный плагин добавляет на Ваш сайт метод оплаты «Твои платежи» для WooCommerce
       Plugin URI: /wp-admin/admin.php?page=main_settings_payu.php
       Author: PayU
       Version: 1.0.0
