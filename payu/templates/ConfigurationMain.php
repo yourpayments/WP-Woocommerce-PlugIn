@@ -20,7 +20,7 @@ wp_enqueue_style(
 
         <div class="configuration-payu">
 
-            <h1>Настройки плагина PayU для WooCommerce</h1>
+            <h1>Настройки плагина «Твои платежи» для WooCommerce</h1>
 
             <input type="hidden" name="action" value="update"/>
             <input type="hidden" name="page_options" value="<?= \implode(',', array_keys($params)); ?>"/>
