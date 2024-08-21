@@ -17,6 +17,7 @@
 5. Зайдите в настройки плагина WooCommerce > Настройки «Твои платежи»  
    ![](assets/woocommerce_ypmn_settings.png)
 6. Настройте модуль согласно подсказкам. Не забудьте установить тестовый режим для проверки модуля.
+7. Для корректной работы необходимо включить "классический" режим, для этого следуйте [инструкции](https://help.peachpay.app/en/articles/8725365-there-are-no-payment-methods-available-woocommerce-checkout-blocks)
 
 ## Ссылки
 - [НКО «Твои Платежи»](https://YPMN.ru/)
